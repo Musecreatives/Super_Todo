@@ -28,6 +28,7 @@ function addTodo(todo) {
 
   // add to array of todo
   listOfTodo.push(todo);
+  console.log(todo);
 
   // add todo to list of todo elements in html page
   getElement("list-of-todos").innerHTML += todoItem(todo);

@@ -16,25 +16,22 @@
             <h2>Sign In To Continue</h2>
             <p>Please file in your correct login credentials</p>
 
-            <form>
 
                 <label for="username">Username</label>
-                <input type="text" name="username" id="username" required>
+                <input id="input1" type="text" name="input1" required>
 
                 <label for="password">Password</label>
-                <input type="text" name="password" id="password" required>
+                <input type="password" name="password" id="input2" required>
 
                 <a href="./register.html">Don't have an account yet </a>
                 <br />
                 <br />
 
-                <button>Sign In</button>
-
-            </form>
+                <button onclick="authLogin()">Sign In</button>
 
         </section>
     </main>
-
+    <script src="auth.js"></script>
 </body>
 
 </html>
